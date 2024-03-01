@@ -1,0 +1,103 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/* shared styles */
+* {
+    font-family: "Mulish";
+    margin: 0 auto;
+
+}
+
+.primary-color {
+    color: orangered;
+}
+
+.primary-btn {
+    background: orangered;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: 500px;
+    font-size: 17px;
+    padding: 14px;
+    width: 150px;
+}
+
+/* nav section styles */
+.web-name-logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.web-name-logo h1 {
+    font-weight: 800;
+}
+
+.web-name-logo img {
+    width: 50px;
+    height: 50px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 35px;
+    padding-bottom: 35px;
+
+}
+
+.navigation ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    font-weight: 600;
+}
+
+/* banner section */
+
+.banner-parent-div {
+    background-image: linear-gradient(6deg, rgba(241, 241, 241, 0) 4%, rgba(15, 10, 10, 0.966) 100%), url(/Images/Banner.png);
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    border-radius: 12px;
+    padding-top: 120px;
+}
+
+.banner-parent-div div {
+    padding-top: 26px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner-parent-div h1 {
+    font-weight: 800;
+    font-size: 45px;
+    color: white;
+}
+
+.banner-parent-div p {
+    color: white;
+}
+
+.banner-parent-div input,
+select {
+    font-weight: 500px;
+    font-size: 17px;
+    padding: 12px;
+    width: 150px;
+    border-radius: 6px;
+    border: none;
+}
+
+.banner-input {
+    background: rgba(255, 255, 255, 0.30);
+    margin-top: 60px;
+    width: 696px;
+    height: 68px;
+    border-radius: 8px;
+
+}
