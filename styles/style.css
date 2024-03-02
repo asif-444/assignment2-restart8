@@ -281,3 +281,24 @@ p {
     font-weight: 600;
 }
 
+/* footer section */
+footer{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: rgba(19, 19, 24, 0.05);
+}
+footer div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+footer>div img{
+    height: 50px;
+    width: 50px;
+}
+.social-icons{
+    text-indent: 20px;
+}
+
