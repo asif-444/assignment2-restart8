@@ -2,46 +2,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 /* shared styles */
-*{
+* {
     font-family: "Mulish";
 }
 
-.color-primary{
+.color-primary {
     color: orangered;
 }
+
+.btn-primary {
+    color: white;
+    background-color: orangered;
+    height: 40px;
+    width: 125px;
+}
+
 /* header section */
-header{
+header {
     padding-left: 135px;
     padding-right: 135px;
     border: 2px solid rebeccapurple;
 }
 
 /* nav section */
-.logo-name{
+.logo-name {
     display: flex;
     justify-content: space-between;
     border: 2px solid red;
 }
 
-.logo-name div, ul{
+.logo-name div{
+    gap: 15px;
+}
+
+.logo-name div,
+ul {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.logo-name ul{
+.logo-name ul {
     list-style: none;
     gap: 26px;
     font-size: 18px;
     font-weight: 600;
 }
 
-.logo-name h1{
+.logo-name h1 {
     font-weight: 800;
 }
 
 /* banner section */
-.banner-section{
+.banner-section {
     height: 500px;
     background: linear-gradient(10deg, rgba(99, 0, 0, 0.173) 0%, rgb(3, 1, 1) 100%), url(/Images/Banner.png);
     background-repeat: no-repeat;
@@ -51,12 +64,59 @@ header{
     border: 2px solid greenyellow;
 }
 
-.explore{
+.explore {
     padding-top: 100px;
     text-align: center;
 }
 
-.preference{
+.preference {
     text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    width: 600px;
+    margin: 0 auto;
+}
+
+.preference input,
+select,
+button {
+    height: 40px;
+    width: 125px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 8px;
+}
+
+/* popular section */
+.popular-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+    margin-top: 70px;
+    padding-left: 135px;
+    padding-right: 135px;
+    gap: 55px;
+    border: 2px solid peru
+}
+
+.popular-list{
+    display: block;
+}
+
+.popular-section img{
+    height: 450px;
+    width: 450px;
     padding-top: 40px;
+}
+
+.popular-section h1{
+    font-weight: 800px;
+    font-size: 35px;
+}
+
+.popular-section p, ul, li{
+    padding-top: 20px;
 }
