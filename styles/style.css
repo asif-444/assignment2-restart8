@@ -31,7 +31,7 @@ header {
     border: 2px solid red;
 }
 
-.logo-name div{
+.logo-name div {
     gap: 15px;
 }
 
@@ -90,7 +90,7 @@ button {
 }
 
 /* popular section */
-.popular-section{
+.popular-section {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -102,62 +102,136 @@ button {
     border: 2px solid peru
 }
 
-.popular-list{
+.popular-list {
     display: block;
 }
 
-.popular-section img{
+.popular-section img {
     height: 450px;
     width: 450px;
     padding-top: 40px;
 }
 
-.popular-section h1{
+.popular-section h1 {
     font-weight: 800px;
     font-size: 35px;
 }
 
-.popular-section p, ul, li{
+.popular-section p,
+ul,
+li {
     padding-top: 20px;
 }
 
 /* destination section */
-.destination-container{
+.destination-container {
     padding-left: 135px;
     padding-right: 135px;
     text-align: center;
     padding-top: 100px;
 }
-.destination-grid{
+
+.destination-description h1,
+p {
+    padding-bottom: 13px;
+}
+
+.destination-grid {
     display: grid;
-    grid-template-columns: repeat(12, 1fr) ;
+    grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 20px;
 }
 
-.destination-grid img{
+.destination-grid img {
     width: 99%;
     height: 99%;
 }
 
-.grid-item-1{
+.grid-item-1 {
     grid-column: 1/ span 6;
+    position: relative;
 }
-.grid-item-2{
+
+.grid-item-2 {
     grid-column: 7/ span 6;
+    position: relative;
 }
-.grid-item-3{
+
+.grid-item-3 {
     grid-column: 1/ span 4;
+    position: relative;
 }
-.grid-item-4{
+
+.grid-item-4 {
     grid-column: 5/ span 4;
+    position: relative;
 }
-.grid-item-5{
+
+.grid-item-5 {
     grid-column: 9/ span 4;
+    position: relative;
 }
-.grid-item-6{
+
+.grid-item-6 {
     grid-column: 1/ span 5;
+    position: relative;
 }
-.grid-item-7{
+
+.grid-item-7 {
     grid-column: 6/ span 7;
+    position: relative;
+}
+
+.grid-item-1 h1,
+.grid-item-2 h1 {
+    position: absolute;
+    bottom: 150px;
+    right: 210px;
+    color: white;
+}
+
+.grid-item-3 h1,
+.grid-item-4 h1,
+.grid-item-5 h1 {
+    position: absolute;
+    bottom: 160px;
+    right: 130px;
+    color: white;
+}
+
+.grid-item-6 h1,
+.grid-item-7 h1 {
+    position: absolute;
+    bottom: 160px;
+    right: 200px;
+    color: white;
+    padding-right: 40px;
+}
+
+/* why choose us section */
+.choice-description {
+    padding-left: 135px;
+    padding-right: 135px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.choice-specs {
+    height: 500px;
+    width: auto;
+    padding-left: 135px;
+    padding-right: 135px;
+    padding-top: 50px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+
+.choice-specs-features {
+    border-radius: 16px;
+    padding: 30px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
 }
