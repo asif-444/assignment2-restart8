@@ -218,7 +218,7 @@ p {
 }
 
 .choice-specs {
-    height: 500px;
+    height: 800px;
     width: auto;
     padding-left: 135px;
     padding-right: 135px;
@@ -226,7 +226,7 @@ p {
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(2, 1fr);
-    
+
 }
 
 .choice-specs-features {
@@ -235,3 +235,49 @@ p {
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
 }
+
+/* newsletter section */
+.newsletter-container {
+    height: 700px;
+    padding-top: 100px;
+    padding-left: 135px;
+    padding-right: 135px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    border: 2px solid magenta;
+}
+
+.newsletter-inputs {
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    height: 500px;
+    width: 500px;
+    padding: 50px;
+}
+
+.newsletter-container img{
+    height: 600px;
+    width: 100%;
+
+}
+
+.newsletter-inputs input{
+    width: 450px;
+    height: 50px;
+    margin-top: 20px;
+    border: none;
+    background-color: rgb(248, 246, 244);
+    border-radius: 10px;
+}
+.newsletter-inputs button{
+    width: 450px;
+    height: 50px;
+    margin-top: 20px;
+    border: none;
+    background-color: orangered;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
