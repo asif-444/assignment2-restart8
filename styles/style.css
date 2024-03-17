@@ -21,36 +21,35 @@
 header {
     padding-left: 135px;
     padding-right: 135px;
-    border: 2px solid rebeccapurple;
+    
 }
 
 /* nav section */
-.logo-name {
+.nav-container {
     display: flex;
     justify-content: space-between;
-    border: 2px solid red;
-}
-
-.logo-name div {
-    gap: 15px;
-}
-
-.logo-name div,
-ul {
-    display: flex;
-    justify-content: center;
     align-items: center;
+    
 }
 
-.logo-name ul {
+.nav-container h1 {
+    font-weight: 800;
+}
+.nav-logo-container {
+    gap: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-ul-container ul{
     list-style: none;
     gap: 26px;
     font-size: 18px;
     font-weight: 600;
-}
-
-.logo-name h1 {
-    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* banner section */
@@ -61,7 +60,7 @@ ul {
     background-size: cover;
     border-radius: 14px;
     color: white;
-    border: 2px solid greenyellow;
+    
 }
 
 .explore {
@@ -99,16 +98,19 @@ button {
     padding-left: 135px;
     padding-right: 135px;
     gap: 55px;
-    border: 2px solid peru
+    
 }
 
+.popular-description{
+    height: 650px;
+}
 .popular-list {
     display: block;
 }
 
 .popular-section img {
-    height: 450px;
-    width: 450px;
+    height: 480px;
+    width: 480px;
     padding-top: 40px;
 }
 
@@ -128,9 +130,13 @@ li {
     padding-left: 135px;
     padding-right: 135px;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
+.destination-description h1, .choice-description h1{
+    font-weight: 800px;
+    font-size: 35px;
+}
 .destination-description h1,
 p {
     padding-bottom: 13px;
@@ -245,7 +251,7 @@ p {
     display: flex;
     justify-content: space-between;
     gap: 30px;
-    border: 2px solid magenta;
+    
 }
 
 .newsletter-inputs {
@@ -300,5 +306,12 @@ footer>div img{
 }
 .social-icons{
     text-indent: 20px;
+}
+
+/* responsive styles for mobile device */
+@media screen and (max-width: 600px) {
+    footer{
+        width: 100%;
+    }
 }
 
